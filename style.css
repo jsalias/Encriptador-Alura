@@ -243,7 +243,7 @@ footer a {
     body {
        
         width: 100%;
-        height: 100%;
+        height: auto;
         font-family: 'Inter', sans-serif;
         background-color: #E5E5E5;
         }
@@ -263,10 +263,7 @@ footer a {
        align-items: center;
      
      }
-       
-
-       
-
+     
     header{
     width: 100%;
     height: 13%;
@@ -274,10 +271,10 @@ footer a {
     background-color:#E5E5E5;
     font-family: 'Inter', sans-serif;
    }
-
+   
     main{
         width: 100%;
-        height: 630px;
+        height: 590px;
     
    }
    .area-left{
@@ -462,13 +459,14 @@ footer a {
 
    footer{
     width: 100%;
-    height: 80px;
+    height: auto;
     text-align: center;
     
    }
 
  p{
     margin-top: 25px;
+    margin-bottom: 25px;
  }
 }
 
