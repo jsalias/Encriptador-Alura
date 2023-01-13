@@ -274,7 +274,7 @@ footer a {
    
     main{
         width: 100%;
-        height: 620px;
+        height: 610px;
     
    }
    .area-left{
@@ -461,11 +461,12 @@ footer a {
     width: 100%;
     height: 170px;
     text-align: center;
+  
     
    }
 
  p{
-    margin-top: 25px;
+   margin-top: 10px;
  }
 }
 
