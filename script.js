@@ -1,5 +1,3 @@
-
-
 const inputresultado = document.querySelector("#area-resultado");
 const inputMensaje = document.querySelector("#area-texto");
 const botonEncriptar = document.querySelector("#encriptar");
@@ -7,13 +5,9 @@ const botonDesencriptar = document.querySelector("#desencriptar");
 const botonCopiar = document.querySelector("#copiar");
 const botonEscuchar = document.querySelector("#escuchar");
 
-
 botonEncriptar.onclick = encriptar;
 botonDesencriptar.onclick = desencriptar;
 botonCopiar.onclick = copiar;
-
-
-
 
 function encriptar(){
         
@@ -28,10 +22,7 @@ function encriptar(){
         document.getElementById("noResuelto").style.visibility = "hidden";
         document.getElementById("copiar").style.visibility = "visible";
         document.getElementById("escuchar").style.visibility = "visible";
-        inputresultado.value = mensajeEncriptado;
-
-       /* document.getElementById("inputresultado").value= '';*/
-        
+        inputresultado.value = mensajeEncriptado; 
   }
   function desencriptar(){
    
@@ -48,8 +39,6 @@ function encriptar(){
     document.getElementById("escuchar").style.visibility = "visible";
   
     inputresultado.value = mensaje;
-    /*document.getElementById("inputresultado").value= '';*/
-  
 }
 
 function copiar(){
@@ -57,11 +46,9 @@ function copiar(){
     navigator.clipboard.writeText(mensajeEncriptado);
 }
 
-
 escuchar.addEventListener('click',()=>{
     leerTexto(inputresultado.value);
 });
-
 
 function leerTexto(inputresultado){
 
